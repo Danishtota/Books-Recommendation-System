@@ -3,9 +3,9 @@ import pandas as pd
 
 @st.cache_data
 def load_data():
-    books = pd.read_csv(r'D:\Books-Recommendation-System\data\books.csv', low_memory=False)
-    users = pd.read_csv(r'D:\Books-Recommendation-System\data\users.csv')
-    ratings = pd.read_csv(r'D:\Books-Recommendation-System\data\ratings.csv')
+    books = pd.read_csv('data/Books.csv', low_memory=False)
+    ratings = pd.read_csv('data/Ratings.csv', low_memory=False)
+    users = pd.read_csv('data/Users.csv', low_memory=False)
     return books, users, ratings
 
 def show_home():
