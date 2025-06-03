@@ -43,3 +43,6 @@ The system uses three main datasets:
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn
+
+🧑‍💻 Author
+Made with ❤️ by Faizan Aijaz
